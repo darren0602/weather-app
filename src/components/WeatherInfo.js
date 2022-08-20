@@ -20,11 +20,11 @@ export default function WeatherInfo(props) {
           <div className="container">
 
             <div className="top">
-              <div>
-                <div className="location">
+              <div className="location">
+                <div>
                   <p>{data.sys ? `${data.name}, ${data.sys.country}` : null}</p>
                 </div>
-                <div className="temp">
+                <div>
                   <h1>{data.main ? `${kelvinToCelcius(data.main.temp)}°C` : null}</h1>
                 </div>
               </div>
