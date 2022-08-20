@@ -97,6 +97,9 @@
     background-color: rgba(0 ,0 ,0 , 0.4);
     border-radius: 15px;
     margin: 5rem auto;
+    position: absolute;
+    top: 5%;
+    left: 10%;
   }
 
   .top {
